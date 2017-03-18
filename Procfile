@@ -1,2 +1,2 @@
-web: gunicorn run.py:app 
+web: gunicorn app.views:app 
 ps:scale web=1
